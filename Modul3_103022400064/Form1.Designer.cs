@@ -47,7 +47,7 @@
             "Fahrenheit",
             "Kelvin",
             "Reamur"});
-            this.comboBoxDegree.Location = new System.Drawing.Point(124, 167);
+            this.comboBoxDegree.Location = new System.Drawing.Point(23, 41);
             this.comboBoxDegree.Name = "comboBoxDegree";
             this.comboBoxDegree.Size = new System.Drawing.Size(121, 24);
             this.comboBoxDegree.TabIndex = 0;
@@ -55,7 +55,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(121, 148);
+            this.label1.Location = new System.Drawing.Point(20, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 16);
             this.label1.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(283, 167);
+            this.textBox1.Location = new System.Drawing.Point(163, 41);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(350, 22);
             this.textBox1.TabIndex = 2;
@@ -71,7 +71,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(280, 148);
+            this.label2.Location = new System.Drawing.Point(160, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(283, 258);
+            this.textBox2.Location = new System.Drawing.Point(163, 92);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(350, 22);
@@ -88,7 +88,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(280, 239);
+            this.label3.Location = new System.Drawing.Point(160, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 5;
@@ -96,12 +96,13 @@
             // 
             // ActionButton
             // 
-            this.ActionButton.Location = new System.Drawing.Point(661, 166);
+            this.ActionButton.Location = new System.Drawing.Point(532, 41);
             this.ActionButton.Name = "ActionButton";
             this.ActionButton.Size = new System.Drawing.Size(75, 23);
             this.ActionButton.TabIndex = 6;
             this.ActionButton.Text = "Convert";
             this.ActionButton.UseVisualStyleBackColor = true;
+            this.ActionButton.Click += new System.EventHandler(this.ActionButton_Click);
             // 
             // comboBoxDegreeAkhir
             // 
@@ -111,7 +112,7 @@
             "Fahrenheit",
             "Kelvin",
             "Reamur"});
-            this.comboBoxDegreeAkhir.Location = new System.Drawing.Point(124, 258);
+            this.comboBoxDegreeAkhir.Location = new System.Drawing.Point(23, 92);
             this.comboBoxDegreeAkhir.Name = "comboBoxDegreeAkhir";
             this.comboBoxDegreeAkhir.Size = new System.Drawing.Size(121, 24);
             this.comboBoxDegreeAkhir.TabIndex = 7;
@@ -119,7 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(121, 239);
+            this.label4.Location = new System.Drawing.Point(20, 73);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 16);
             this.label4.TabIndex = 8;
@@ -129,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(620, 146);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.comboBoxDegreeAkhir);
             this.Controls.Add(this.ActionButton);
